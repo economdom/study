@@ -2,7 +2,7 @@
 
 - [ ] [English](english/readme.md)
 - [ ] [Upwork](upwork/readme.md)
-- [ ] [Basic](basic/readme.md)
+- [ ] [Web Technologies](web/readme.md)
 - [ ] [HTML](html/readme.md)
 - [ ] [CSS](css/readme.md)
 - [ ] [Git](git/readme.md)
