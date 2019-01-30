@@ -1,6 +1,4 @@
-# Study
-
-## #01
+# Table of Content
 
 - [ ] [English](english/readme.md)
 - [ ] [Upwork](upwork/readme.md)
@@ -20,9 +18,6 @@
 - [ ] [Laravel](laravel/readme.md)
 - [ ] [Vue](vue/readme.md)
 - [ ] [OpenCart](opencart/readme.md)
-
-## #02
-
 - [ ] [Sublime](sublime/readme.md)
 - [ ] [Chrome](chrome/readme.md)
 - [ ] [LAMP](lamp/readme.md)
@@ -30,9 +25,6 @@
 - [ ] [Webpack](webpack/readme.md)
 - [ ] [PhpStorm](phpstorm/readme.md)
 - [ ] [SEO](seo/readme.md)
-
-## #03
-
 - [ ] [Sport](sport/readme.md)
 - [ ] [Video](video/readme.md)
 - [ ] [Photo](photo/readme.md)
