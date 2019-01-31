@@ -10,7 +10,7 @@
 
 *custom_loop_get_posts.php*
 
-```php
+```
 <?php
 
 /**
@@ -81,7 +81,7 @@ add_shortcode('get_posts_example', 'custom_loop_shortcode_get_posts');
 
 *custom_loop_pre_get_posts.php*
 
-```php
+```
 <?php
 
 /**
@@ -113,7 +113,7 @@ add_action('pre_get_posts', 'custom_loop_pre_get_posts');
 
 *custom_loop_wp_query.php*
 
-```php
+```
 <?php
 
 /**

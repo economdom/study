@@ -33,7 +33,7 @@
 
 Предварительно нужно завести новый сайт, БД и пользователя. После чего подключаемся через SSH к серверу скачиваем последнюю версию WordPress.
 
-```bash
+```
 wget https://wordpress.org/latest.tar.gz
 tar -xzvf latest.tar.gz
 ```
@@ -44,7 +44,7 @@ tar -xzvf latest.tar.gz
 
 *unpack.php*
 
-```php
+```
 <?php
 $unzip = shell_exec("unzip wordpress-4.8.1.zip");
 echo 'Unzip command executed';

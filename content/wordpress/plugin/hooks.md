@@ -6,7 +6,7 @@
 
 Хуки бывают двух видов - фильтры и экшены. **Фильтры** просто принимают какой-то контент и могут его как-то изменять (изменение контента поста перед отправкой пользователю и т. д.). **Экшены** могут выполнять любые действия, которые мы поместим в нашу пользовательскую функцию (вывод контента, запись в файл, изменение БД и т. д.). С программной точки зрения и фильтры и экшены представляют собой одно и тоже, но разделяются условно по типу выполняемой работы.
 
-```php
+```
 add_filter( $tag, $function_to_add, $priority, $accepted_args );
 add_action( $tag, $function_to_add, $priority, $accepted_args );
 ```
@@ -20,7 +20,7 @@ add_action( $tag, $function_to_add, $priority, $accepted_args );
 
 *wp-content/plugins/kmz-simple/kmz-simple.php*
 
-```php
+```
 include_once(plugin_dir_path(__FILE__) . '/action-hook.php');
 ```
 
@@ -28,7 +28,7 @@ include_once(plugin_dir_path(__FILE__) . '/action-hook.php');
 
 *wp-content/plugins/kmz-simple/action-hook.php*
 
-```php
+```
 <?php
 
 function kmz_action_hook_example(){
@@ -41,7 +41,7 @@ add_action('init', 'kmz_action_hook_example');
 
 *wp-content/plugins/kmz-simple/kmz-simple.php*
 
-```php
+```
 include_once(plugin_dir_path(__FILE__) . '/filter-hook.php');
 ```
 
@@ -49,7 +49,7 @@ include_once(plugin_dir_path(__FILE__) . '/filter-hook.php');
 
 *wp-content/plugins/kmz-simple/filter-hook.php*
 
-```php
+```
 <?php
 
 function kmz_filter_hook_example( $content ){

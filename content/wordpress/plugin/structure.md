@@ -14,7 +14,7 @@
 
 *wp-content/plugins/kmz-simple/kmz-simple.php*
 
-```php
+```
 <?php
 
 /**

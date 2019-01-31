@@ -8,14 +8,16 @@
 
 Для этого мы будем использовать функции `wp_enqueue_script()` для подключения JavaScript файла и `wp_enqueue_style()` для подключения файла стилей. На вход данных функции нужно передавать уникальный идентификатор скрипта (хендлер), путь к нему и массив зависимостей (например jQuery для Bootstrap), если таковые имеются.
 
-```php
+```
 wp_enqueue_style( $handle, $src, $deps, $ver, $media );
 wp_enqueue_script( $handle, $src, $deps, $ver, $in_footer);
 ```
 
 Примеры использования:
 
-```php
+*wp-content/themes/theme-name/functions.php*
+
+```
 wp_enqueue_style( 'slider', get_template_directory_uri() . '/css/slider.css',false,'1.1','all');
 wp_enqueue_script( 'script', get_template_directory_uri() . '/js/script.js', array ( 'jquery' ), 1.1, true);
 ```
@@ -30,7 +32,7 @@ wp_enqueue_script( 'script', get_template_directory_uri() . '/js/script.js', arr
 
 *wp-content/themes/bootstrap/functions.php*
 
-```php
+```
 if(!is_admin()) {
     // All functions here
 }
@@ -38,7 +40,7 @@ if(!is_admin()) {
 
 Чтобы комментарии WordPress работали так как нужно (деревовидные комментарии, расширенные формы комментариев), следует подключать определённый JavaScript файл WordPress для каждой темы, которая использует комментарии. При этом, чтобы этот файл не вызывался в тех местах где он не нужен, следует сделать несколько проверок:
 
-```php
+```
 if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
     wp_enqueue_script( 'comment-reply' );
 }
@@ -48,7 +50,7 @@ if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 
 *wp-content/themes/bootstrap/functions.php*
 
-```php
+```
 <?php
 if(!is_admin()) {
 
