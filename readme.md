@@ -12,6 +12,7 @@
 - [x] [PHP](content/php/readme.md) - серверных язык программирования
 - [ ] [Composer](content/npm/readme.md) - пакетный менеджер для PHP
 - [x] [WordPress](content/wordpress/readme.md) - самая популярная CMS
+- [x] [MODX](content/modx/readme.md) - любимая CMS
 - [ ] [Google Maps](content/google-map/readme.md) - интерактивные карты Google
 - [ ] [Node.js](content/nodejs/readme.md) - запускает JavaScript на сервере
 - [ ] [npm](content/npm/readme.md) - пакетный менеджер для JavaScript
