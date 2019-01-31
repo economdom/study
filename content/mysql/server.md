@@ -51,7 +51,7 @@ mysql -u root -p
 
 Для создания новой базы данных необходимо указать название, кодировку и вариант сравнения кодировки.
 
-```sql
+```
 CREATE DATABASE `sql`
 DEFAULT CHARACTER SET utf8
 COLLATE utf8_general_ci;
@@ -78,7 +78,7 @@ COLLATE utf8_general_ci;
 
 Создадим 2 таблицы, первая для продавцов, вторая для покупателей.
 
-```sql
+```
 CREATE TABLE `sql`.`salers`(
     `snum` INT NOT NULL,
     `sname` VARCHAR (50) NOT NULL,
@@ -99,7 +99,7 @@ CREATE TABLE `sql`.`customers`(
 
 Отобразим все БД, выберем необходимую нам и отобразим её поля.
 
-```sql
+```
 SHOW DATABASES;
 USE sql;
 SHOW TABLES;
@@ -107,7 +107,7 @@ SHOW TABLES;
 
 Создадим крайнюю таблицу с заказами.
 
-```sql
+```
 CREATE TABLE `orders`(
     `onum` INT (11) NOT NULL,
     `amt` DECIMAL (6,2) NOT NULL,
