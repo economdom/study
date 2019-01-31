@@ -32,7 +32,7 @@
 
 ## wp-includes/option.php
 
-Создержит основные функции Option API WordPress.
+Содержит основные функции Option API WordPress.
 
 * `add_option()`, `update_option()`, `get_option()` - добавление, обновление и отображение сохранённых опций.
 * `set_transient()`, `get_transient()`, `delete_transient()` - функции создания, возврата и удаления временных параметров в WordPress. Временный параметр - это параметр с ограниченным сроком действия и по достижении соответствующего времени автоматически удаляется из WordPress.

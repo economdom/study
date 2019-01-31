@@ -21,7 +21,7 @@
 - [ ] [OpenCart](content/opencart/readme.md) - CMS для интернет магазина
 - [ ] [SEO](content/seo/readme.md) - поисковая оптимизация
 - [ ] [Sublime Text](content/sublime/readme.md) - быстрый и удобный текстовый редактор
-- [ ] [Google Chrome](content/chrome/readme.md) - браузер от Google
+- [x] [Google Chrome](content/chrome/readme.md) - браузер от Google
 - [ ] [LAMP](content/lamp/readme.md) - окружение разработки приложения на PHP
 - [ ] [Browsersync](content/browsersync/readme.md) - инструмент для автоматической перезагрузки браузера
 - [ ] [Gulp](content/gulp/readme.md) - менеджер задач для Front End
