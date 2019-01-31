@@ -1,3 +1,3 @@
-- [ ] [Бодибилдинг](content/english/body.md)
-- [ ] [Бокс](content/english/boxing.md)
-- [ ] [Питание](content/english/food.md)
+- [ ] [Бодибилдинг](body.md)
+- [ ] [Бокс](boxing.md)
+- [ ] [Питание](food.md)
