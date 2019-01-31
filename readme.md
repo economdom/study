@@ -9,7 +9,7 @@
 - [ ] [Bootstrap](content/bootstrap/readme.md) - фреймворк с сеткой и набором готовых элементов для сайта
 - [ ] [Regular Expressions](content/regex/readme.md) - язык поиска и замены
 - [x] [MySQL](content/mysql/readme.md) - реляционная система управления базами данных
-- [ ] [PHP](content/php/readme.md) - серверных язык программирования
+- [x] [PHP](content/php/readme.md) - серверных язык программирования
 - [ ] [Composer](content/npm/readme.md) - пакетный менеджер для PHP
 - [ ] [WordPress](content/wordpress/readme.md) - самая популярная CMS
 - [ ] [Google Maps](content/google-map/readme.md) - интерактивные карты Google
