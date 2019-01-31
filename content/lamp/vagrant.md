@@ -129,7 +129,7 @@ sudo service apache2 restart
 
 После запуска `vagrant up` создадим БД в MySQL и добавим пару строк:
 
-```sql
+```
 mysql -u root -p
 CREATE DATABASE test;
 USE test;
@@ -145,7 +145,7 @@ exit
 
 */var/www/html/index.php*
 
-```php
+```
 <?php
 $dbhost = 'localhost:3306';
 $dbuser = 'root';
@@ -199,7 +199,7 @@ vim /var/www/wordpress.loc/public_html/index.html
 
 Добавим хоть какой то контент:
 
-```html
+```
 <html>
   <head>
     <title>Welcome to Example.com!</title>
