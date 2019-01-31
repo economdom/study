@@ -28,7 +28,7 @@
 - [ ] [Webpack](content/webpack/readme.md) - менеджер зависимостей
 - [ ] [PhpStorm](content/phpstorm/readme.md) - IDE для PHP
 - [ ] [Design](content/design/readme.md) - иконки, логотипы, веб-дизайн, UX/UI
-- [ ] [Sport](content/sport/readme.md) - тренировки по боксу и бодибилдингу
+- [x] [Sport](content/sport/readme.md) - тренировки по боксу и бодибилдингу
 - [ ] [Video](content/video/readme.md) - видео и анимация
 - [ ] [Photo](content/photo/readme.md) - работа с фотоапаратом и Photoshop
 - [ ] [Music](content/music/readme.md) - игра на гитаре
