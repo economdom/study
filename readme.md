@@ -12,14 +12,14 @@
 - [x] [PHP](content/php/readme.md) - серверных язык программирования
 - [ ] [Composer](content/npm/readme.md) - пакетный менеджер для PHP
 - [x] [WordPress](content/wordpress/readme.md) - самая популярная CMS
-- [x] [MODX](content/modx/readme.md) - любимая CMS
+- [x] [MODX](content/modx/readme.md) - гибкая и шустрая CMF
+- [ ] [OpenCart](content/opencart/readme.md) - CMS для интернет магазина
+- [x] [Laravel](content/laravel/readme.md) - самый популярный PHP фреймворк
 - [ ] [Google Maps](content/google-map/readme.md) - интерактивные карты Google
 - [ ] [Node.js](content/nodejs/readme.md) - запускает JavaScript на сервере
 - [ ] [npm](content/npm/readme.md) - пакетный менеджер для JavaScript
 - [ ] [React](content/react/readme.md) - JavaScript библиотека для создания пользовательских интерфейсов
-- [ ] [Laravel](content/laravel/readme.md) - самый популярный PHP фреймворк
 - [ ] [Vue.js](content/vuejs/readme.md) - прогрессивный JavaScript фреймворк
-- [ ] [OpenCart](content/opencart/readme.md) - CMS для интернет магазина
 - [ ] [SEO](content/seo/readme.md) - поисковая оптимизация
 - [ ] [Sublime Text](content/sublime/readme.md) - быстрый и удобный текстовый редактор
 - [x] [Google Chrome](content/chrome/readme.md) - браузер от Google
@@ -27,7 +27,6 @@
 - [ ] [Browsersync](content/browsersync/readme.md) - инструмент для автоматической перезагрузки браузера
 - [ ] [Gulp](content/gulp/readme.md) - менеджер задач для Front End
 - [ ] [Webpack](content/webpack/readme.md) - менеджер зависимостей
-- [ ] [PhpStorm](content/phpstorm/readme.md) - IDE для PHP
 - [x] [Design](content/design/readme.md) - иконки, логотипы, веб-дизайн, UX/UI
 - [x] [Sport](content/sport/readme.md) - тренировки по боксу и бодибилдингу
 - [ ] [Video](content/video/readme.md) - видео и анимация
