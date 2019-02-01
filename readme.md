@@ -11,7 +11,7 @@
 - [x] [MySQL](content/mysql/readme.md) - реляционная система управления базами данных
 - [x] [PHP](content/php/readme.md) - серверных язык программирования
 - [ ] [Composer](content/npm/readme.md) - пакетный менеджер для PHP
-- [x] [WordPress](content/wordpress/readme.md) - самая популярная CMS
+- [x] [WordPress](content/wordpress/readme.md) - самая популярная CMS в мире
 - [x] [MODX](content/modx/readme.md) - гибкая и шустрая CMF
 - [ ] [OpenCart](content/opencart/readme.md) - CMS для интернет магазина
 - [x] [Laravel](content/laravel/readme.md) - самый популярный PHP фреймворк
