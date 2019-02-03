@@ -1,4 +1,4 @@
 # LAMP
 
-- [x] [Local by Flywheel](flywheel.md)
-- [x] [Vagrant](vagrant.md)
+- [x] [Local by Flywheel](content/flywheel.md)
+- [x] [Vagrant](content/vagrant.md)
