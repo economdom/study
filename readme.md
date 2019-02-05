@@ -4,7 +4,7 @@
 - [x] [HTML](content/html/readme.md) - язык структурной разметки
 - [ ] [CSS](content/css/readme.md) - язык стилевой разметки
 - [ ] [Git](content/git/readme.md) - система контроля версий
-- [ ] [JavaScript](content/javascript/readme.md) - клиентский язык программирования
+- [x] [JavaScript](content/javascript/readme.md) - клиентский язык программирования
 - [ ] [jQuery](content/jquery/readme.md) - библиотека упрощающая написание JavaScript
 - [ ] [Bootstrap](content/bootstrap/readme.md) - фреймворк с сеткой и набором готовых элементов для сайта
 - [ ] [Regular Expressions](content/regex/readme.md) - язык поиска и замены
