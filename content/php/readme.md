@@ -1,6 +1,6 @@
 # PHP
 
 - [ ] [Теория](content/theory/readme.md)
-- [ ] [Создание PHP фреймворка](content/cases/custom_php_framework.md)
-- [ ] [Создание коллективного блога](content/cases/custom_blog_system.md)
-- [ ] [Создание каталога с нуля](content/cases/catalog.md)
+- [x] [Создание PHP фреймворка](content/practic/custom_php_framework.md)
+- [x] [Создание коллективного блога](content/practic/custom_blog_system.md)
+- [ ] [Создание каталога с нуля](content/practic/catalog.md)
