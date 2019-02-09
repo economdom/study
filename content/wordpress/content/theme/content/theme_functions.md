@@ -1,6 +1,6 @@
 # Функции темы
 
-Файл *functions.php* позволяет вызывать хуки WordPress и писать кастомный PHP код для текущей темы, чтобы, например, добавить/изменить настройки или включить/расширить возможности темы. По сути, файл *functions.php* ведёт себя как WordPress плагин, который идёт вместе с темой.
+Файл *functions.php* позволяет вызывать [хуки WordPress](../plugin/hooks.md) и писать кастомный PHP код для текущей темы, чтобы, например, добавить/изменить настройки или включить/расширить возможности темы. По сути, файл *functions.php* ведёт себя как WordPress плагин, который идёт вместе с темой.
 
 > Если вы хотите создавать функционал, который должен работать независимо от внешнего оформления сайта, тогда этот программный код лучше вынести в плагин.
 
@@ -10,27 +10,21 @@
 
 Ваш файл *functions.php* может выглядеть таким образом:
 
-```php
+*functions.php*
+
+```
 /**
- * MyFirstTheme's functions and definitions
- *
- * @package MyFirstTheme
- * @since MyFirstTheme 1.0
+ * Functions and definitions
  */
 
 if ( ! function_exists( 'myfirsttheme_setup' ) ) :
     /**
      * Sets up theme defaults and registers support for various WordPress features.
-     *
-     * Note that this function is hooked into the after_setup_theme hook, which runs
-     * before the init hook. The init hook is too late for some features, such as indicating
-     * support post thumbnails.
      */
     function myfirsttheme_setup() {
      
         /**
-         * Make theme available for translation.
-         * Translations can be placed in the /languages/ directory.
+         * Make theme available for translation. Translations can be placed in the /languages/ directory.
          */
         load_theme_textdomain( 'myfirsttheme', get_template_directory() . '/languages' );
      
@@ -53,12 +47,11 @@ if ( ! function_exists( 'myfirsttheme_setup' ) ) :
         ) );
      
         /**
-         * Enable support for the following post formats:
-         * aside, gallery, quote, image, and video
+         * Enable support for the following post formats: aside, gallery, quote, image, and video
          */
         add_theme_support( 'post-formats', array ( 'aside', 'gallery', 'quote', 'image', 'video' ) );
     }
-endif; // myfirsttheme_setup
+endif;
 
 add_action( 'after_setup_theme', 'myfirsttheme_setup' );
 ```

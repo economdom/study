@@ -2,19 +2,19 @@
 
 Если в вашей теме встречаются изображения то их можно выводить используя `bloginfo('template_url')`.
 
-```php
+```
 <img src="<?php bloginfo('template_url'); ?>/images/logo.png">
 ```
 
 В качестве альтернативы можно использовать функцию `get_template_directory_uri()`:
 
-```php
+```
 <img src="<?php echo get_template_directory_uri()?>/images/logo.png">
 ```
 
 Или `get_theme_file_uri();`.
 
-```php
+```
 <img src="echo get_theme_file_uri( 'images/logo.png' )">
 ```
 

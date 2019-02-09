@@ -36,7 +36,7 @@
 
 Простой пример использования:
 
-```php
+```
 if ( is_user_logged_in() ):
     echo 'Welcome, registered user!';
 else:
@@ -46,7 +46,7 @@ endif;
 
 Кроме этого в условиях можно использовать несколько тегов с помощью логических операторов:
 
-```php
+```
 if ( is_home() || is_single() ) {
    the_content();
 }
@@ -57,7 +57,7 @@ else {
 
 Проверку можно делать сравнивая строки с тем что возвращает функция:
 
-```php
+```
 if ( 'book' == get_post_type() ) {
     the_title();
 }
@@ -65,7 +65,7 @@ if ( 'book' == get_post_type() ) {
 
 Пока что нет функции, которая бы могла проверить является ли текущая страница дочерней (имеет ли она родителя), хотя это можно сделать с помощью небольшого количества кода:
 
-```php
+```
 global $post; // if outside the loop
 if ( is_page() && $post->post_parent ) {
     // This is a subpage
@@ -76,7 +76,7 @@ if ( is_page() && $post->post_parent ) {
 
 Можно создать свою собственную функцию `is_subpage()`:
 
-```php
+```
 function is_subpage() {
     global $post; // load details about this page
     if ( is_page() && $post->post_parent ) { // test to see if the page has a parent

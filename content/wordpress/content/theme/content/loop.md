@@ -23,7 +23,7 @@
 
 Базовый формат запроса SQL:
 
-```sql
+```
 SELECT fields FROM table WHERE conditions
 ```
 
@@ -39,7 +39,7 @@ SELECT fields FROM table WHERE conditions
 
 Самый простой цикл WordPress может выглядить таким образом:
 
-```php
+```
 if (have_posts()) :
   while(have_posts()): the_post(); 
     // loop content - template tags, html, etc
@@ -63,7 +63,7 @@ endif;
 
 Если вам нужно вызывать один и тот же цикл (например стандартный цикл WordPress) в нескольких местах нужно использовать функцию `rewind_posts()` для того чтобы можно было использовать его повторно.
 
-```php
+```
 // Start the main loop
 if ( have_posts() ) : 
     while ( have_posts() ) : the_post();
@@ -82,25 +82,20 @@ endwhile;
 
 Чтобы вызывать различные циклы несколько раз на странице нужно использовать определённые функции такие как `wp_reset_postdata()` , которые нужны для сброса данных поста, иначе вы можете не совсем ожидаемый результат на который расчитываете.
 
-```php
-// The main query.
+```
+// First standart loop
 if ( have_posts() ) : 
     while ( have_posts() ) : the_post();
         the_title();
         the_content();
     endwhile;
 else :
-    // When no posts are found, output this text.
     _e( 'Sorry, no posts matched your criteria.' );
 endif;
 wp_reset_postdata();
 
-/*
- * The secondary query. Note that you can use any category name here. In our example, we use "example-category".
- */
+// Second custom loop
 $secondary_query = new WP_Query( 'category_name=example-category' );
-
-// The second loop.
 if ( $secondary_query->have_posts() ) :
     echo '<ul>';
     while ( $secondary_query->have_posts() ) :
