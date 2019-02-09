@@ -41,23 +41,25 @@ RESTful приложение использует ресурсы (**resources**)
 
 ## Часто используемые роуты
 
-* **API index** - `GET /wp-json/wp/v2/` мы получаем список всех дефолтных роутов и конечных точек, а также список аргументов.
-* **Post index** (10 latest posts) - `GET /wp-json/wp/v2/posts`
-* **Post index** (2 posts) - `GET /wp-json/wp/v2/posts?per_page=2`
-* **Single post based on ID** - `GET /wp-json/wp/v2/posts/{post_id}`
-* **Page index** (10 latest pages) - `GET /wp-json/wp/v2/pages`
-* **Page index** (2 pages) - `GET /wp-json/wp/v2/pages?per_page=2`
-* **Single page based on ID** - `GET /wp-json/wp/v2/pages/{post_id}`
-* **Category index** (10 first categories, alpabetically) - `GET /wp-json/wp/v2/categories`
-* **Category index** (2 categories) - `GET /wp-json/wp/v2/categories?per_page=3`
-* **Single category based on ID** - `GET /wp-json/wp/v2/categories/{post_id}`
-* **Tag index** (10 first tags, alpabetically) - `GET /wp-json/wp/v2/tags`
-* **Tag index** (2 tags) - `GET /wp-json/wp/v2/tags?per_page=3`
-* **Single tag based on ID** - `GET /wp-json/wp/v2/tags/{post_id}`
-* **Post in category based on category IDs** - `GET /wp/v2/posts?categories=198,4`
-* **Post in category and tag by ID** - `GET /wp-json/wp/v2/posts?tags=199&categories=4`
-* **User index** (10 recent) - `GET /wp-json/wp/v2/users`
-* **Current logged in user** - `GET /wp-json/wp/v2/users/me`
-* **Single user by ID** - `GET /wp-json/wp/v2/users/1`
-* **Comments index** (10 recent) - `GET /wp-json/wp/v2/comments`
-* **10 latest comments on specific post based on post ID** - `GET /wp-json/wp/v2/comments?post=6`
+Описание                                               | Роут
+---                                                    |---
+API index (all routes and endpoints)                   | `wp-json/wp/v2/`
+Post index (10 latest posts)                           | `wp-json/wp/v2/posts`
+Post index (2 posts)                                   | `wp-json/wp/v2/posts?per_page=2`
+Single post based on ID                                | `wp-json/wp/v2/posts/7`
+Page index (10 latest pages)                           | `wp-json/wp/v2/pages`
+Page index (2 pages)                                   | `wp-json/wp/v2/pages?per_page=2`
+Single page based on ID                                | `wp-json/wp/v2/pages/9`
+Category index (10 first categories, alphabetically)   | `wp-json/wp/v2/categories`
+Category index (2 categories)                          | `wp-json/wp/v2/categories?per_page=3`
+Single category based on ID                            | `wp-json/wp/v2/categories/4`
+Tag index (10 first tags, alpabetically)               | `wp-json/wp/v2/tags`
+Tag index (2 tags)                                     | `wp-json/wp/v2/tags?per_page=3`
+Single tag based on ID                                 | `wp-json/wp/v2/tags/3`
+Post in category based on category IDs                 | `wp-json/wp/v2/posts?categories=198,4`
+Post in category and tag by ID                         | `wp-json/wp/v2/posts?tags=199&categories=4`
+User index (10 recent)                                 | `wp-json/wp/v2/users`
+Current logged in user                                 | `wp-json/wp/v2/users/me`
+Single user by ID                                      | `wp-json/wp/v2/users/1`
+Comments index (10 recent)                             | `wp-json/wp/v2/comments`
+10 latest comments on specific post based on post ID   | `wp-json/wp/v2/comments?post=6`
