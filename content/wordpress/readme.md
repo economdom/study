@@ -1,8 +1,8 @@
 # WordPress
 
-- [Основы](basic/readme.md)
-- [Разработка тем](theme/readme.md)
-- [Разработка плагинов](plugin/readme.md)
-- [Мультисайт](multisite/readme.md)
-- [Интернет-магазин](shop/readme.md)
-- [Практика разработки тем и плагинов](practice/readme.md)
+- [Основы](content/basic/readme.md)
+- [Разработка тем](content/theme/readme.md)
+- [Разработка плагинов](content/plugin/readme.md)
+- [Мультисайт](content/multisite/readme.md)
+- [Интернет-магазин](content/shop/readme.md)
+- [Практика разработки тем и плагинов](content/practice/readme.md)
