@@ -1,5 +1,7 @@
 # English
 
+- [x] [Алфавит](content/dictionary/alphabet.md)
+- [x] [Транскрипция](content/dictionary/transcription.md)
+- [x] [Словарь](content/dictionary/readme.md)
 - [x] [Грамматика](content/grammar/readme.md)
-- [ ] [Словарь]()
-- [ ] [Разговорник]()
+- [ ] [Разговорник](content/phrasebook/readme.md)
