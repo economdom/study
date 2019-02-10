@@ -1,5 +1,6 @@
 - [x] [English](content/english/readme.md) - язык на все случаи жизни
 - [x] [Upwork](content/upwork/readme.md) - биржа фриланса
+- [ ] [Programming](content/programming/readme.md) - основы программирования
 - [ ] [Web](content/web/readme.md) - основы веб-технологий
 - [x] [HTML](content/html/readme.md) - язык структурной разметки
 - [ ] [CSS](content/css/readme.md) - язык стилевой разметки
