@@ -9,15 +9,15 @@ npm init
 
 ```
 {
-  "name": "sass-gulp",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC"
+    "name": "sass-gulp",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC"
 }
 ```
 
@@ -27,9 +27,9 @@ npm init
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>Document</title>
-	<link rel="stylesheet" href="css/bundle.min.css">
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bundle.min.css">
 </head>
 <body>
 
@@ -41,8 +41,8 @@ npm init
 
 ```
 body{
-	background: red;
-	color: white;
+    background: red;
+    color: white;
 }
 ```
 
@@ -71,31 +71,31 @@ npm i --save-dev gulp gulp-sass gulp-autoprefixer gulp-sourcemaps gulp-concat br
 
 ```
 var gulp = require('gulp'),
-	autoprefixer = require('gulp-autoprefixer'),
-	concat = require('gulp-concat'),
-	sass = require('gulp-sass'),
-	sourcemaps = require('gulp-sourcemaps'),
-	browsersync = require('browser-sync');
+    autoprefixer = require('gulp-autoprefixer'),
+    concat = require('gulp-concat'),
+    sass = require('gulp-sass'),
+    sourcemaps = require('gulp-sourcemaps'),
+    browsersync = require('browser-sync');
 
 var config = {
-	path: {
-		scss: './src/scss/**/*.scss',
-		html: './public/index.html'
-	},
-	output: {
-		cssName: './css/bundle.min.css',
-		path: './public'
-	}
+    path: {
+        scss: './src/scss/**/*.scss',
+        html: './public/index.html'
+    },
+    output: {
+        cssName: './css/bundle.min.css',
+        path: './public'
+    }
 };
 
 gulp.task('scss', function(){
-	return gulp.src(config.path.scss)
-		.pipe(sourcemaps.init())
-		.pipe(sass())
-		.pipe(concat(config.output.cssName))
-		.pipe(autoprefixer())
-		.pipe(sourcemaps.write())
-		.pipe(gulp.dest(config.output.path))
+    return gulp.src(config.path.scss)
+        .pipe(sourcemaps.init())
+        .pipe(sass())
+        .pipe(concat(config.output.cssName))
+        .pipe(autoprefixer())
+        .pipe(sourcemaps.write())
+        .pipe(gulp.dest(config.output.path))
 });
 
 gulp.task('default', ['scss']);
