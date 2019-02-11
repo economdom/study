@@ -105,10 +105,10 @@ gulp.task('default', ['scss']);
 
 ```
 body {
-  background-color: teal;
-  p {
-    box-shadow: #000 0 10px 10px;
-  }
+    background-color: teal;
+    p {
+        box-shadow: #000 0 10px 10px;
+    }
 }
 ```
 
