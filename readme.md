@@ -4,7 +4,7 @@
 - [ ] [Web](content/web/readme.md) - основы веб-технологий
 - [x] [HTML](content/html/readme.md) - язык структурной разметки
 - [ ] [CSS](content/css/readme.md) - язык стилевой разметки
-- [ ] [SASS](content/css/readme.md) - язык стилевой разметки
+- [ ] [SASS](content/sass/readme.md) - язык стилевой разметки
 - [ ] [Git](content/git/readme.md) - система контроля версий
 - [x] [JavaScript](content/javascript/readme.md) - клиентский язык программирования
 - [ ] [jQuery](content/jquery/readme.md) - библиотека упрощающая написание JavaScript
