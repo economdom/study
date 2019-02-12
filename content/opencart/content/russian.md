@@ -2,9 +2,11 @@
 
 * Загружаем файлы локализации
 * Переходим в меню *Settings / Localisation / Languages* и добавляем новый язык
-    * Language Name: `Russian`
-    * Code: `ru-ru`
-    * Locale: `ru_RU`
+
+![edit-setting-store.png](img/edit-setting-store.png)
+
+![add-language.png](img/add-language.png)
+
 * После добавления языка переходим *Settings / Stores* и кликаем по кнопку редактирования магазина
 
-Теперь переходим в настройки сайта и включаем ЧПУ.
+![change-store-language.png](img/change-store-language.png)
