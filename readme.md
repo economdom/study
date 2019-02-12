@@ -1,3 +1,4 @@
+- [x] [Study](content/study/readme.md) - как организовать процесс обучения
 - [x] [English](content/english/readme.md) - язык на все случаи жизни
 - [x] [Upwork](content/upwork/readme.md) - биржа фриланса
 - [ ] [Programming](content/programming/readme.md) - основы программирования
