@@ -1,6 +1,13 @@
 #     Паттерн MVCL
 
-OpenCart реализует паттер MVCL (Model-View-Controller-Language). Компонент **Language** реализует мультязычность и если перейти в директорию *catalog/* то мы увидим четыре папки - *model/*, *view/*, *controller/*, *language/*.
+OpenCart реализует паттер MVCL (Model-View-Controller-Language). Компонент **Language** реализует мультязычность и если перейти в директорию *catalog/* то мы увидим четыре папки
+
+```
+model/
+view/
+controller/
+language/
+```
 
 Структура адресов в OpenCart представляет собой классический вариант, который используется в современных PHP фреймворках. Если мы перейдём в каталог, то увидим следующий URL:
 
