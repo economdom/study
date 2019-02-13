@@ -17,6 +17,7 @@
 - [x] [MODX](content/modx/readme.md) - гибкая и шустрая CMF
 - [x] [OpenCart](content/opencart/readme.md) - CMS для интернет магазина
 - [x] [Laravel](content/laravel/readme.md) - самый популярный PHP фреймворк
+- [x] [Gatsby](content/gatsby/readme.md) - генератор статичных файлов
 - [ ] [Google Maps](content/google-map/readme.md) - интерактивные карты Google
 - [ ] [React](content/react/readme.md) - JavaScript библиотека для создания пользовательских интерфейсов
 - [ ] [SEO](content/seo/readme.md) - поисковая оптимизация
