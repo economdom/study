@@ -8,3 +8,4 @@
 - [Руссификация](content/russian.md)
 - [Добавление валюты](content/currency.md)
 - [Паттерн MVCL](content/pattern.md)
+- [Настройка окружения](content/gulp.md)
