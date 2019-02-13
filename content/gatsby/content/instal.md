@@ -15,5 +15,5 @@ gatsby new gatsby.loc
 Теперь можем запустить в режиме разработки и посмотреть наше приложение на старте:
 
 ```
-gatsby develop
+cd gatsby.loc && gatsby develop
 ```
