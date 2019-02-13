@@ -6,14 +6,14 @@
 
 ```
 // Add modules
-var gulp           = require('gulp'),
-        gutil          = require('gulp-util' ),
-        sass           = require('gulp-sass'),
-        browserSync    = require('browser-sync'),
-        cleanCSS       = require('gulp-clean-css'),
-        autoprefixer   = require('gulp-autoprefixer'),
-        bourbon        = require('node-bourbon'),
-        ftp            = require('vinyl-ftp');
+var gulp = require('gulp'),
+    gutil = require('gulp-util' ),
+    sass = require('gulp-sass'),
+    browserSync = require('browser-sync'),
+    cleanCSS = require('gulp-clean-css'),
+    autoprefixer = require('gulp-autoprefixer'),
+    bourbon = require('node-bourbon'),
+    ftp = require('vinyl-ftp');
 
 // Update pages on local server
 gulp.task('browser-sync', function() {
@@ -46,10 +46,10 @@ gulp.task('watch', ['sass', 'browser-sync'], function() {
 // Deploy to remote server
 gulp.task('deploy', function() {
     var conn = ftp.create({
-        host:      'hostname.com',
-        user:      'username',
-        password:  'userpassword',
-        parallel:  10,
+        host 'hostname.com',
+        user: 'username',
+        password: 'userpassword',
+        parallel: 10,
         log: gutil.log
     });
     var globs = [
@@ -77,7 +77,7 @@ gulp.task('default', ['watch']);
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "OpenCart",
+  "author": "Vladimir Kamuz",
   "license": "ISC",
   "devDependencies": {
     "browser-sync": "^2.15.0",
