@@ -27,13 +27,13 @@
 
 Для решения первой задачи поместим следующий html-код сразу после открывающего тега `body`:
 
-```html
+```
 <div id="page-preloader"><span class="spinner"></span></div>
 ```
 
 Для нашего прелоадера нам понадобятся стили, но зависить от внешних файлов мы не хотим, поэтому разместим стили прямо в документе, где-нибудь внутри head:
 
-```css
+```
 #page-preloader {
     position: fixed;
     left: 0;
@@ -59,7 +59,7 @@
 
 Теперь осталось только скрыть наш прелоадер после загрузки страницы. Здесь мы уже не ограничены в средствах, поэтому можем использовать jQuery:
 
-```js
+```
 $(window).on('load', function () {
     var $preloader = $('#page-preloader'),
         $spinner   = $preloader.find('.spinner');
@@ -74,13 +74,13 @@ $(window).on('load', function () {
 
 Font Awesome уже включён в UIkit и теперь в блок прелоадера нам нужно добавить лишь пару дополнительных классов.
 
-```html
+```
 <div id="page-preloader"><span class="spinner uk-icon-cog uk-icon-spin"></span></div>
 ```
 
 Стили спинера могут приобрести такой вид
 
-```css
+```
 #page-preloader .spinner {
   position: absolute;
   left: 50%;
