@@ -1,16 +1,16 @@
 - [x] [Study](content/study/readme.md) - как организовать процесс обучения
 - [x] [English](content/english/readme.md) - язык на все случаи жизни
 - [x] [Upwork](content/upwork/readme.md) - биржа фриланса
-- [ ] [Programming](content/programming/readme.md) - основы программирования
-- [ ] [Web](content/web/readme.md) - основы веб-технологий
+- [ ] Programming - основы программирования
+- [ ] Web - основы веб-технологий
 - [x] [HTML](content/html/readme.md) - язык структурной разметки
-- [ ] [CSS](content/css/readme.md) - язык стилевой разметки
-- [ ] [SASS](content/sass/readme.md) - язык стилевой разметки
-- [ ] [Git](content/git/readme.md) - система контроля версий
+- [ ] CSS - язык стилевой разметки
+- [ ] SASS - язык стилевой разметки
+- [ ] Git - система контроля версий
 - [x] [JavaScript](content/javascript/readme.md) - клиентский язык программирования
-- [ ] [jQuery](content/jquery/readme.md) - библиотека упрощающая написание JavaScript
-- [ ] [Bootstrap](content/bootstrap/readme.md) - фреймворк с сеткой и набором готовых элементов для сайта
-- [ ] [Regular Expressions](content/regex/readme.md) - язык поиска и замены
+- [ ] jQuery - библиотека упрощающая написание JavaScript
+- [ ] Bootstrap - фреймворк с сеткой и набором готовых элементов для сайта
+- [ ] Regular Expressions - язык поиска и замены
 - [x] [MySQL](content/mysql/readme.md) - реляционная система управления базами данных
 - [x] [PHP](content/php/readme.md) - серверных язык программирования
 - [x] [WordPress](content/wordpress/readme.md) - самая популярная CMS в мире
@@ -18,18 +18,18 @@
 - [x] [OpenCart](content/opencart/readme.md) - CMS для интернет магазина
 - [x] [Laravel](content/laravel/readme.md) - самый популярный PHP фреймворк
 - [x] [Gatsby](content/gatsby/readme.md) - генератор статичных файлов
-- [ ] [Google Maps](content/google-map/readme.md) - интерактивные карты Google
-- [ ] [React](content/react/readme.md) - JavaScript библиотека для создания пользовательских интерфейсов
-- [ ] [SEO](content/seo/readme.md) - поисковая оптимизация
-- [ ] [Sublime Text](content/sublime/readme.md) - быстрый и удобный текстовый редактор
+- [ ] Google Maps - интерактивные карты Google
+- [ ] React - JavaScript библиотека для создания пользовательских интерфейсов
+- [ ] SEO - поисковая оптимизация
+- [ ] Sublime Text - быстрый и удобный текстовый редактор
 - [x] [Google Chrome](content/chrome/readme.md) - браузер от Google
 - [x] [LAMP](content/lamp/readme.md) - окружение разработки приложения на PHP
-- [ ] [Browsersync](content/browsersync/readme.md) - инструмент для автоматической перезагрузки браузера
-- [ ] [Gulp](content/gulp/readme.md) - менеджер задач для Front End
-- [ ] [Webpack](content/webpack/readme.md) - менеджер зависимостей
+- [ ] Browsersync - инструмент для автоматической перезагрузки браузера
+- [ ] Gulp - менеджер задач для Front End
+- [ ] Webpack - менеджер зависимостей
 - [x] [Design](content/design/readme.md) - иконки, логотипы, веб-дизайн, UX/UI
 - [x] [Sport](content/sport/readme.md) - тренировки по боксу и бодибилдингу
-- [ ] [Video](content/video/readme.md) - видео и анимация
-- [ ] [Photo](content/photo/readme.md) - работа с фотоапаратом и Photoshop
-- [ ] [Music](content/music/readme.md) - игра на гитаре
-- [ ] [3D](content/3d/readme.md) - моделирование в SketchUp
+- [ ] Video - видео и анимация
+- [ ] Photo - работа с фотоапаратом и Photoshop
+- [ ] Music - игра на гитаре
+- [ ] 3D - моделирование в SketchUp

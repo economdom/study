@@ -9,3 +9,4 @@
 - [Добавление валюты](content/currency.md)
 - [Паттерн MVCL](content/pattern.md)
 - [Настройка окружения](content/gulp.md)
+- [Структура темы](content/structure.md)
