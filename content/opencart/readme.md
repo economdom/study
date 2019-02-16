@@ -10,3 +10,4 @@
 - [Паттерн MVCL](content/pattern.md)
 - [Настройка окружения](content/gulp.md)
 - [Структура темы](content/structure.md)
+- [Создание новой темы](content/new-theme.md)
