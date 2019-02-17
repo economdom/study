@@ -1,4 +1,4 @@
 # JavaScript
 
-- Теория
+- [Теория](theory/readme.md)
 - [Практика](practice/readme.md)
