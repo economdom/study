@@ -1,8 +1,9 @@
 # Основы
 
-- [x] [Установка](content/install.md)
-- [x] [Документация WordPress](content/docs.md)
-- [x] [Структура файлов и папок](content/structure.md)
-- [x] [Обзор WordPress API](content/api.md)
-- [x] [Конфигурация](content/config.md)
-- [x] [Схема базы данных](content/schema_db.md)
+- [Установка](content/install.md)
+- [Основы использования WordPress](content/basic.md)
+- [Документация WordPress](content/docs.md)
+- [Структура файлов и папок](content/structure.md)
+- [Обзор WordPress API](content/api.md)
+- [Конфигурация](content/config.md)
+- [Схема базы данных](content/schema_db.md)
