@@ -6,3 +6,4 @@
 - [Мультисайт](content/multisite/readme.md)
 - [Интернет-магазин](content/shop/readme.md)
 - [Практика разработки тем и плагинов](content/practice/readme.md)
+- [Сниппеты и заготовки](content/snippets/readme.md)

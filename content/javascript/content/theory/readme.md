@@ -19,4 +19,4 @@
 * Объекты
 * this и не прямой вызов функции
 * Акцессоры и атрибуты свойств
-* [AJAX в JavaScript](content/ajax.md)
+* [AJAX и объект XMLHttpRequest](content/ajax.md)
