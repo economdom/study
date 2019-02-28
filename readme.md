@@ -1,6 +1,6 @@
 - [x] [Upwork](content/upwork/readme.md) - биржа фриланса
 - [ ] Programming - основы программирования
-- [ ] Web - основы веб-технологий
+- [x] [Web](content/web/readme.md) - основы веб-технологий
 - [x] [HTML](content/html/readme.md) - язык структурной разметки
 - [ ] CSS - язык стилевой разметки
 - [x] [JavaScript](content/javascript/readme.md) - клиентский язык программирования
