@@ -8,3 +8,5 @@
 - [Вариативные товары](content/product-variations.md)
 - [Цифровые товары](content/digital-products.md)
 - [Груповые товары](content/grouped-products.md)
+- [Продукты по подписке](content/subscription-product.md)
+- [Импорт товаров](content/import-products.md)
