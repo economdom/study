@@ -5,8 +5,6 @@
 - [Работа с данными о товаре](content/work-with-product-data.md)
 - [Добавление категорий и меток](content/add-categories-and-tags.md)
 - [Типы товаров](content/type-products.md)
-- Работа с вариативными товарами
-- Добавление фильтров
-- Добавление в тему поддержки WooCommerce
-- Переопределие шаблонов
-- Хуки WooCommerce
+- [Вариативные товары](content/product-variations.md)
+- [Цифровые товары](content/digital-products.md)
+- [Груповые товары](content/grouped-products.md)
