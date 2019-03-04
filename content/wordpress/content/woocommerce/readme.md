@@ -11,3 +11,4 @@
 - [Продукты по подписке](content/subscription-product.md)
 - [Импорт товаров](content/import-products.md)
 - [Создание зон доставки](content/create-shipping-zones.md)
+- [Установка фиксированной доставки](content/set-up-flat-rate-shipping.md)
