@@ -18,3 +18,6 @@
 
 ![flat-rate-settings.png](img/flat-rate-settings.png)
 
+Теперь при оформлении заказа мы можем выбрать необходимый метод доставки, который расчитает стоимость по указанной нами схеме.
+
+![flat-rate-shipping-front-end.png](img/flat-rate-shipping-front-end.png)
