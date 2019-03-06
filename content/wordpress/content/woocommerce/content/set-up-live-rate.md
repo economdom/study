@@ -1,0 +1,3 @@
+# Настройка live тарифов
+
+[WooCommerce Service](https://wordpress.org/plugins/woocommerce-services/) - это плагин от WooCommerce, который позволяет вам использовать реальные (live) тарифы из USPS или Canada Post без необходимости ввода каких-либо ключей API. Для его использования нужна учётная запись на WordPress.com и WooCommerce.com а также плагин Jetpack. Наиболее популярные это USPS, UPS, FedEx и множество международных.

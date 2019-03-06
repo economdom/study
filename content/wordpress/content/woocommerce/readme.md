@@ -13,3 +13,4 @@
 - [Создание зон доставки](content/create-shipping-zones.md)
 - [Настройка фиксированной доставки](content/set-up-flat-rate-shipping.md)
 - [Настройка бесплатной доставки](content/set-up-free-shipping.md)
+- [Настройка live тарифов](content/set-up-live-rate.md)
