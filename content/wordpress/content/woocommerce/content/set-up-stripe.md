@@ -12,6 +12,14 @@
 
 ![keys-stripe.png](img/keys-stripe.png)
 
-Добавим товаров в корзину и посмотрим появился ли у нас новый вариант оплаты.
+Для получения ключей в демо режиме нужно вводить дополнительные данные, которых у меня нет, потому что я живу в Украине, где Stripe не поддерживается. Поэтому я активировал демо режим в настройках Stripe WooCommerce, добавил ключи для live режима, оформил заказ.
 
-![chekout-stripe.png](img/chekout-stripe.png)
+![checkout-demo-mode-stripe.png](img/checkout-demo-mode-stripe.png)
+
+Тестовая оплата прошла.
+
+![order-received-stripe.png](img/order-received-stripe.png)
+
+Статус заказа изменился.
+
+![order-status-stripe.png](img/order-status-stripe.png)
