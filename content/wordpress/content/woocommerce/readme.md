@@ -16,3 +16,4 @@
 - [Настройка live тарифов](content/set-up-live-rate.md)
 - [Настройка способов оплаты](content/configure-payment-options.md)
 - [Настройка PayPal](content/set-up-paypal.md)
+- [Настройка Stripe](content/set-up-stripe.md)
