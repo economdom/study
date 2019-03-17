@@ -1,7 +1,7 @@
 # Разработка тем
 
-- [x] [Структура папок и файлов](content/structure_theme.md)
-- [x] [Шапка файла и метаданные шаблона](content/template_metadata.md)
+- [x] [Структура папок и файлов](content/structure-theme.md)
+- [x] [Шапка файла или метаданные шаблона](content/file-header.md)
 - [x] [Иерархия шаблона](content/hierarchy_template.md)
 - [x] [Части шаблона](content/partials.md)
 - [x] [Обращение к файлам и папкам темы](content/linking-theme-files-directories.md)
