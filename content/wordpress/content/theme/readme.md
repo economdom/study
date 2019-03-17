@@ -2,6 +2,7 @@
 
 - [x] [Структура папок и файлов](content/structure-theme.md)
 - [x] [Шапка файла или метаданные шаблона](content/file-header.md)
+- [x] [Импорт тестовых данных](content/import-test-data.md)
 - [x] [Иерархия шаблона](content/hierarchy_template.md)
 - [x] [Части шаблона](content/partials.md)
 - [x] [Обращение к файлам и папкам темы](content/linking-theme-files-directories.md)
