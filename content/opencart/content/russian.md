@@ -5,7 +5,7 @@
 * Загружаем файлы локализации
 * Переходим в меню *Settings / Localisation / Languages* и добавляем новый язык
 
-![edit-setting-store.png](img/edit-setting-store.png)
+![edit-setting-store.png](https://github.com/kamuz/study/blob/master/content/opencart/content/img/edit-setting-store.png?raw=true)
 
 ```
 Language Name: Русский
@@ -15,8 +15,8 @@ Status: Enabled
 Sort Order: 0
 ```
 
-![add-language.png](img/add-language.png)
+![add-language.png](https://github.com/kamuz/study/blob/master/content/opencart/content/img/add-language.png?raw=true)
 
 * После добавления языка переходим *Settings / Stores* и кликаем по кнопку редактирования магазина
 
-![change-store-language.png](img/change-store-language.png)
+![change-store-language.png](https://github.com/kamuz/study/blob/master/content/opencart/content/img/change-store-language.png?raw=true)

@@ -25,7 +25,7 @@ composer create-project --prefer-dist yiisoft/yii2-app-basic ./
 
 Теперь осталось настроить хосты на локальном сервере при этом инициализация у нас должна происходить в папке *web/*.
 
-![Настройка хостов в OpenServe для Yii2](https://github.com/kamuz/study/blob/master/content/yii/content/img/setup-domain.png?raw=true)
+![Настройка домена/хостов в OpenServer для Yii2](https://github.com/kamuz/study/blob/master/content/yii/content/img/setup-domain.png?raw=true)
 
 Если что-то пошло не так, тогда можно проверить требования с помощью команды:
 

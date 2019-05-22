@@ -6,7 +6,7 @@
 
 Для активации новой темы нужно перейти в *Extensions / Themes / Default Store Theme/*
 
-![activate-theme.png](img/activate-theme.png)
+![activate-theme.png](https://github.com/kamuz/study/blob/master/content/opencart/content/img/activate-theme.png?raw=true)
 
 После активации темы вы не увидите никаких изменений, потому OpenCart если не находит необходимого шаблона в выбранной теме, то он выбирает его в дефолтной, который идёт вместе с OpenCart.
 
