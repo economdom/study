@@ -30,9 +30,3 @@ php requirements.php
 ```
 
 Или тоже самое через браузер - `http://yiiapp.loc/requirements.php`
-
-Если ошибок нет, тогда нужно сделать инициализацию с помощью:
-
-```
-php init
-```
