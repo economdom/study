@@ -23,10 +23,14 @@
 composer create-project --prefer-dist yiisoft/yii2-app-basic ./
 ```
 
+Теперь осталось настроить хосты на локальном сервере при этом инициализация у нас должна происходить в папке *web/*.
+
+![]()
+
 Если что-то пошло не так, тогда можно проверить требования с помощью команды:
 
 ```
 php requirements.php
 ```
 
-Или тоже самое через браузер - `http://yiiapp.loc/requirements.php`
+Или тоже самое через браузер - `http://yii.loc/requirements.php`
