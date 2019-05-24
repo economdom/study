@@ -1,6 +1,5 @@
 # Содержание
 
-- [x] [Upwork](content/upwork/readme.md) - биржа фриланса
 - [ ] Programming - основы программирования
 - [x] [Web](content/web/readme.md) - основы веб-технологий
 - [x] [HTML](content/html/readme.md) - язык структурной разметки
@@ -12,6 +11,7 @@
 - [x] [PHP](content/php/readme.md) - серверных язык программирования
 - [x] [WordPress](content/wordpress/readme.md) - самая популярная CMS в мире
 - [x] [OpenCart](content/opencart/readme.md) - CMS для интернет магазина
-- [x] [Yii](content/yii/readme.md) - самая популярная CMS в мире
+- [x] [Yii](content/yii/readme.md) - быстрый компонентный PHP фреймворк
 - [ ] Google Maps - интерактивные карты Google
+- [x] [Upwork](content/upwork/readme.md) - биржа фриланса
 - [ ] [ThemeForest](content/themeforest/readme.md) - маркетплейс WordPress тем

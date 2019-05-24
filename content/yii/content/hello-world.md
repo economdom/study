@@ -4,7 +4,7 @@
 
 *controllers/SiteController.php*
 
-```php
+```
 public function actionHello(){
     return "Hello, World!";
 }
@@ -16,7 +16,7 @@ public function actionHello(){
 
 *controllers/SiteController.php*
 
-```php
+```
 public function actionHello(){
     return $this->render('hello');
 }
