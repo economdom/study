@@ -7,20 +7,20 @@
 
 Таблицы БД WordPress:
 
-* [wp_commentmeta](#wp_commentmeta)
-* [wp_comments](#wp_comments)
-* [wp_links](#wp_links)
-* [wp_options](#wp_options)
-* [wp_postmeta](#wp_postmeta)
-* [wp_posts](#wp_posts)
-* [wp_termmeta](#wp_termmeta)
-* [wp_term_relationships](#wp_term_relationships)
-* [wp_term_taxonomy](#wp_term_taxonomy)
-* [wp_terms](#wp_terms)
-* [wp_usermeta](#wp_usermeta)
-* [wp_users](#wp_users)
+* wp_commentmeta
+* wp_comments
+* wp_links
+* wp_options
+* wp_postmeta
+* wp_posts
+* wp_termmeta
+* wp_term_relationships
+* wp_term_taxonomy
+* wp_terms
+* wp_usermeta
+* wp_users
 
-![Schema Dababase WordPress](img/schema.png)
+![Schema Dababase WordPress](https://github.com/kamuz/study/blob/master/content/wordpress/content/basic/content/img/schema.png?raw=true)
 
 ## wp_commentmeta
 
