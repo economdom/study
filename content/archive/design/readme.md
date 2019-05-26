@@ -4,3 +4,4 @@
 - [ ] [Fireworks](fireworks.md)
 - [ ] [Illustrator](illustrator.md)
 - [ ] [Photoshop](photoshop.md)
+- [ ] [Figma](figma.md)
