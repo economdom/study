@@ -97,8 +97,8 @@ php artisan make:auth
 
 Далее в следующих файлах изменить все вхождения `home` на `dashboard`:
 
-* *app/Http/Controllers/DashboardController.php*
 * *resources/views/dashboard.blade.php*
+* *app/Http/Controllers/DashboardController.php*
 * *app/Http/Controllers/Auth/LoginController.php*
 * *app/Http/Controllers/Auth/RegisterController.php*
 * *app/Http/Controllers/Auth/ResetPasswordController.php*

@@ -8,13 +8,7 @@
 
 Этот механизм реализован благодаря системе роутинга или маршрутизации. В дебагере мы можем видеть текущией роут.
 
-```
-Name       | Value
----        |---
-Route      | 'site/hello'
-Action     | 'app\\controllers\\SiteController::actionHello()'
-Parameters | []
-```
+![Вывод строки "Hello, World!" в Yii2](https://github.com/kamuz/study/blob/master/content/yii/content/img/debug-routing-yii.png?raw=true)
 
 Вернёмся к запрошенному ULR, а именно к параметрам после *index.php*.
 
