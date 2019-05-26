@@ -1,6 +1,13 @@
 # WordPress
 
-- [Основы](content/basic/readme.md)
+- [Основы](content/readme.md)
+    - [Установка](content/install.md)
+    - [Основы использования WordPress](content/basic.md)
+    - [Документация WordPress](content/docs.md)
+    - [Структура файлов и папок](content/structure.md)
+    - [Обзор WordPress API](content/api.md)
+    - [Конфигурация](content/config.md)
+    - [Схема базы данных](content/schema_db.md)
 - [Разработка тем](content/theme/readme.md)
 - [Разработка плагинов](content/plugin/readme.md)
 - [Мультисайт](content/multisite/readme.md)
