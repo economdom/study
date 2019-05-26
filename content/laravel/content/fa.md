@@ -6,7 +6,7 @@
 npm i font-awesome --save
 ```
 
-Поключаем:
+Подключаем:
 
 *resources/sass/app.scss*
 
