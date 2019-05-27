@@ -10,7 +10,7 @@
 
 *index.html*
 
-```html
+```
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -65,7 +65,7 @@
 
 *main.js*
 
-```javascript
+```
 (function(){
 
   // Selecting our node
@@ -93,7 +93,7 @@
 
 *main.js*
 
-```javascript
+```
 (function(){
 
   // Selecting our node
@@ -122,7 +122,7 @@
 
 *main.js*
 
-```javascript
+```
 (function(){
 
   // Selecting our node
@@ -164,7 +164,7 @@
 
 *main.js*
 
-```javascript
+```
 (function(){
 
   // Selecting our node
@@ -208,7 +208,7 @@
 
 *main.js*
 
-```javascript
+```
 (function(){
 
   // Selecting our node
@@ -264,7 +264,7 @@
 
 *main.js*
 
-```js
+```
 (function(){
 
   // Selecting our node
@@ -337,7 +337,7 @@
 
 *main.js*
 
-```js
+```
 (function(){
 
   // Selecting our node
@@ -420,7 +420,7 @@
 
 *main.js*
 
-```js
+```
 (function(){
 
   // Selecting our node
@@ -510,7 +510,7 @@
 * Нужно убедится что `myOverlay` существует, потому что иначе нам ничего не нужно изменять
 * Добавляем стили через JavaScript, которые решат данную проблему
 
-```js
+```
 (function(){
 
   // Selecting our node
@@ -608,7 +608,7 @@
 * Далее нужно отцентрировать изображение - для этого просто выполним уже созданную функцию `centerImage()` передав в неё `largeImage`
 * Когда мы удаляем оверлей, нам нужно убедится что в окне больше не отслеживаются события, которые мы создали. Для этого используем функцию `removeEventListener()`, в которую мы передаём необходимые события. Этот блок кода нужно разместить внутри обработчика, который отслеживает клик по большому изображению. Это просто функция очистки - всё будет работать и без неё, но так правильнее.
 
-```js
+```
 (function(){
 
   // Selecting our node
