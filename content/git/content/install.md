@@ -4,6 +4,6 @@
 
 Под Linux следует устанавливать Git с помощью пакетного менеджера, например для Ubuntu/Debian
 
-```bash
+```
 apt-get install git-core
 ```
