@@ -58,7 +58,7 @@
 3. Центральная часть с контентом, которая будет менять своё содержимое в зависимости от страницы админ-панели. Каждая страница имеет ряд отдельных элементов, которые можно скрывать или отобжать при помощи настроек экрана (см. ниже) - они называются метабоксами. Кроме того что мы можем скрыть или отображать отдельные метабоксы, мы также можем их перетаскивая, тем самым меняя и закрепляя их положение на странице.
 4. Настройки экрана (Screen Options) позволяет отображать или скрывать отдельные части страницы
 
-![Админ-панель WordPress](https://github.com/kamuz/study/blob/master/content/wordpress/content/basic/content/img/admin.png?raw=true)
+![Админ-панель WordPress](https://github.com/kamuz/study/blob/master/content/wordpress/content/img/admin.png?raw=true)
 
 Главная страница админки называется **Console**, которая может выводить различную полезную информацию, например аналитику или предоставлять доступ к наиболее часто используемых инструментов. Панели в консоли можно перетаскивать или скрывать. Также есть кнопка помощи.
 
@@ -87,7 +87,7 @@
 
 Есть два вида редактирования статей - визуальный и текст. Визуальный режим похож на тот который вы используете в Word, а текстовый предназначен для ввода HTML. В визуальном режимое вы можете вставлять контент из Word, после чего будут автоматически применятся стили, которые вы использовали в документе Word, но не всегда это проиходит корректно и зачастую во время такой вставки генерируется много лишнего кода, поэтому хоть и есть такая возможно, но её всё таки нужно использовать осторожно или не использовать вообще.
 
-![Визуальный режим редактора WordPress](https://github.com/kamuz/study/blob/master/content/wordpress/content/basic/content/img/editor-visual.png?raw=true)
+![Визуальный режим редактора WordPress](https://github.com/kamuz/study/blob/master/content/wordpress/content/img/editor-visual.png?raw=true)
 
 Предназначение отдельных кнопок в визуальном режиме:
 
@@ -121,7 +121,7 @@
 
 Как только мы указываем заголовок, то у нас тут же формируется постоянная ссылка (permalink)  и статус публикации черновик (draft).
 
-![Пермалинк и черновик](https://github.com/kamuz/study/blob/master/content/wordpress/content/basic/content/img/permalink-draft.png?raw=true)
+![Пермалинк и черновик](https://github.com/kamuz/study/blob/master/content/wordpress/content/img/permalink-draft.png?raw=true)
 
 Теперь, даже если вы покинете текущую страницу без сохранения - она автоматически будет сохраненна как черновик. Вы можете сохранить изменения в черновике, просмотреть черновик на сайте, опубликовать статью (сделать достуной) или отложить дату публикации на указанное время и дату.
 
@@ -164,7 +164,7 @@
 
 Нужны для того чтобы изменять внешний вид постов и функционал в зависимости от выбранного поста (стандартный, заметка, видео, аудио, цитата и т. д.). Поддержка форматов определяется конкретной темой оформления, то есть одни темы могут поддерживать различные форматы постов, а другие нет.
 
-![Форматы постов](https://github.com/kamuz/study/blob/master/content/wordpress/content/basic/content/img/post-format.png?raw=true)
+![Форматы постов](https://github.com/kamuz/study/blob/master/content/wordpress/content/img/post-format.png?raw=true)
 
 ## Список страниц
 
@@ -174,7 +174,7 @@
 
 Рубрики/категории и метки хоть и реализованны по разному, но служат одной и той же цели - структуризации контента для более удобного поиска постов.
 
-![Рубрики и метки](https://github.com/kamuz/study/blob/master/content/wordpress/content/basic/content/img/taxonomy-post.png?raw=true)
+![Рубрики и метки](https://github.com/kamuz/study/blob/master/content/wordpress/content/img/taxonomy-post.png?raw=true)
 
 Категории могут иметь несколько уровней вложенности (поддержка иэрархии), а теги/метки нет - это по сути основное отличие между ними. И одни и вторые можно создавать из отдельного раздела или на странице создания заметки. Также можно создавать свои собственные таксономии и расширять добавлением новых полей через плагин (ACF, Carbon Fields) или используя WordPress API.
 
@@ -198,7 +198,7 @@
 
 В **Screen Options** можно отобразить и использовать дополнительные свойства элементов меню.
 
-![advanced-menu-properties](https://github.com/kamuz/study/blob/master/content/wordpress/content/basic/content/img/advanced-menu-properties.png?raw=true)
+![advanced-menu-properties](https://github.com/kamuz/study/blob/master/content/wordpress/content/img/advanced-menu-properties.png?raw=true)
 
 ## Виджеты
 
